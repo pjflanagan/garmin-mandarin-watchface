@@ -65,10 +65,19 @@ class MandarinClockView extends WatchUi.WatchFace {
         }
     }
 
+    // TODO: decide on a decorative background, I think clouds
+    function drawBackgroundDecoration(dc) {
+      dc.setColor(Application.getApp().getProperty("DesignColor"), Graphics.COLOR_TRANSPARENT);
+      dc.setPenWidth(2);
+      dc.drawCircle(dc.getWidth() / 2, dc.getHeight() / 2, 50);
+    }
+
     // Update the view
     function onUpdate(dc) {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+
+        drawBackgroundDecoration(dc);
 
         var offsetX = Application.getApp().getProperty("OffsetX");
         var offsetY = Application.getApp().getProperty("OffsetY");
@@ -130,6 +139,9 @@ class MandarinClockView extends WatchUi.WatchFace {
                 minuteText = numberToChMap[minutes/10] + "十" + numberToChMap[minutes%10] + "分";
             }
         }
+
+        // TODO: change color base on the time of the day
+
         // ==== drawing Chinese text
         if (Application.getApp().getProperty("ShowTimeOfDay")) {
             drawChineseTextHorizontal(dc, timeOfDay, Application.getApp().getProperty("TimeOfDayColor"), offsetX, offsetY, alignment);

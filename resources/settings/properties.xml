@@ -1,9 +1,10 @@
 <properties>
 
     <property id="BackgroundColor" type="number">0x000000</property>
-    <property id="TimeOfDayColor" type="number">0x707070</property>
-    <property id="HourColor" type="number">0xaaaaaa</property>
-    <property id="MinuteColor" type="number">0xdddddd</property>
+    <property id="TimeOfDayColor" type="number">0x5500ff</property>
+    <property id="HourColor" type="number">0xffaa55</property>
+    <property id="MinuteColor" type="number">0xffaa00</property>
+    <property id="DesignColor" type="number">0x555555</property>
 
     <property id="ShowTimeOfDay" type="boolean">true</property>
     <property id="OffsetX" type="number">30</property>
