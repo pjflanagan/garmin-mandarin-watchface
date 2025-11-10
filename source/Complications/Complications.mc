@@ -2,7 +2,7 @@ import Toybox.Lang;
 import Toybox.Graphics;
 import Toybox.Time;
 
-module Cyberpunk {
+module Complications {
 
   function min(a as Number, b as Number) as Number {
     if (a < b) {
