@@ -8,7 +8,7 @@ These waves were inspired by the way clouds are frequently drawn in Asia.
 
 ## Download
 
-TODO:
+<!-- TODO: -->
 
 <!-- [<img src="https://developer.garmin.com/img/connect-iq/brand/available-badge.svg"
       alt="Available on Garmin Connect IQ"
