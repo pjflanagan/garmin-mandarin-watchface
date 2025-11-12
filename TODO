@@ -1,19 +1,14 @@
 
-# v1.0.1
+# v1.0.2
 - [x] make second hand wider
-- [ ] Update admin things
+- [x] Update admin things
   - [x] documentation (credits)
   - [x] licensing
   - [x] promo-images
-  - [ ] Launcher icon
 
-# v1.0.2
-- [ ] Background color changes based on time of day
-  - [ ] yellow at sunrise
-  - [ ] brighter blue at mid day
-  - [ ] orange at sunset
-  - [ ] purple in evening
-  - [ ] black at night
+# v1.0.3
+- [ ] Launcher icon says 手錶
+- [x] background changes with time of day
 
 # v1.1.0
 - [ ] Add day of week line

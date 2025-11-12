@@ -1,14 +1,10 @@
 <properties>
 
     <property id="ShadowColor" type="number">0x000000</property>
-    <property id="BackgroundColor" type="number">0x000055</property>
-    <property id="DesignColor" type="number">0x0000aa</property>
-
     <property id="TimeOfDayColor" type="number">0x55aaff</property>
     <property id="HourColor" type="number">0x00ffaa</property>
     <property id="MinuteColor" type="number">0xffffff</property>
 
-    <property id="ShowTimeOfDay" type="boolean">true</property>
     <property id="OffsetX" type="number">30</property>
     <property id="OffsetY" type="number">80</property>
     <property id="Padding" type="number">10</property>

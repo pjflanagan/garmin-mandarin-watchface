@@ -1,34 +1,12 @@
 <strings>
-
     <string id="AppName">Chinese Watchface</string>
 
-    <string id="BackgroundColorTitle">Background Color</string>
-    <string id="TimeOfDayColorTitle">Time of Day Color</string>
-    <string id="HourColorTitle">Hour Color</string>
-    <string id="MinuteColorTitle">Minute Color</string>
-    <string id="ShowTimeOfDayTitle">Show Time/Period of Day</string>
     <string id="OffsetXTitle">Left or Right Margin (pixels)</string>
     <string id="OffsetYTitle">Top Margin (pixels)</string>
     <string id="PaddingTitle">Spacing after Time/Period of Day text (pixels)</string>
     <string id="AlignTextTitle">Alignment</string>
 
-    <string id="ColorBlack">Black</string>
-    <string id="ColorDarkGray">Dark Gray</string>
-    <string id="ColorLightGray">Light Gray</string>
-    <string id="ColorWhite">White</string>
-    <string id="ColorRed">Red</string>
-    <string id="ColorDarkRed">Dark Red</string>
-    <string id="ColorOrange">Orange</string>
-    <string id="ColorYellow">Yellow</string>
-    <string id="ColorGreen">Green</string>
-    <string id="ColorDarkGreen">Dark Green</string>
-    <string id="ColorBlue">Blue</string>
-    <string id="ColorDarkBlue">Dark Blue</string>
-    <string id="ColorPurple">Purple</string>
-    <string id="ColorPink">Pink</string>
-
     <string id="AlignLeft">Align Left</string>
     <string id="AlignCenter">Align Center</string>
     <string id="AlignRight">Align Right</string>
-
 </strings>

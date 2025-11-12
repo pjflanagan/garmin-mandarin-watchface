@@ -143,13 +143,12 @@ class ChineseWatchfaceView extends WatchUi.WatchFace {
         }
 
         // ==== drawing Chinese text
-        if (Application.getApp().getProperty("ShowTimeOfDay")) {
-            drawChineseTextHorizontal(dc, timeOfDay, Application.getApp().getProperty("ShadowColor"), offsetX, offsetY + 3, alignment);
-            drawChineseTextHorizontal(dc, timeOfDay, Application.getApp().getProperty("TimeOfDayColor"), offsetX, offsetY, alignment);
-        }
+        drawChineseTextHorizontal(dc, timeOfDay, Application.getApp().getProperty("ShadowColor"), offsetX, offsetY + 3, alignment);
+        drawChineseTextHorizontal(dc, timeOfDay, Application.getApp().getProperty("TimeOfDayColor"), offsetX, offsetY, alignment);
 
         drawChineseTextHorizontal(dc, hourText, Application.getApp().getProperty("ShadowColor"), offsetX, offsetY + fontWidth + paddingWidth + 3, alignment);
         drawChineseTextHorizontal(dc, hourText, Application.getApp().getProperty("HourColor"), offsetX, offsetY + fontWidth + paddingWidth, alignment);
+        
         drawChineseTextHorizontal(dc, minuteText, Application.getApp().getProperty("ShadowColor"), offsetX, offsetY + fontWidth * 2 + paddingWidth + 3, alignment);
         drawChineseTextHorizontal(dc, minuteText, Application.getApp().getProperty("MinuteColor"), offsetX, offsetY + fontWidth * 2 + paddingWidth, alignment);
     }
