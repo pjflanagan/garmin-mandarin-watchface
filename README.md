@@ -7,11 +7,11 @@ View the time in Chinese, great for students! Available on Garmin ConnectIQ soon
 
 ## About
 
-This is a branch of a [garmin-mandarin-clock](https://github.com/starryalley/garmin-mandarin-clock) by [Mark Kuo](https://github.com/starryalley).
-I love using this watch face, but felt it could use a little decoration and some motion.
+This is a branch of [garmin-mandarin-clock](https://github.com/starryalley/garmin-mandarin-clock) by [Mark Kuo](https://github.com/starryalley).
+I love using this watch face, and wanted to give it a little decoration and some motion.
 Inspired by how dive watches often have wave backgrounds, 
 I added a wave background of my own, meant to resemble the way clouds are often drawn in Asia.
-I've also added a secondhand to make the watch feel a more alive.
+I've also added a secondhand to make the watch feel more alive.
 
 
 ## Develop
