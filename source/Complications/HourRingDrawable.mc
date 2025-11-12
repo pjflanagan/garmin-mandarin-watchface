@@ -12,7 +12,7 @@ module Complications {
     private var _radius as Number;
 
     // NOTE: half of this goes off screen, do double the visible width
-    private const _segmentWidthSecond = 2;
+    private const _segmentWidthSecond = 3;
 
     public function initialize(
       params as

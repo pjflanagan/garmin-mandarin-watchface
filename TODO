@@ -1,3 +1,9 @@
 
-- [x] Add a second hand
+# v1.0.1
+- [x] make second hand wider
+
+# v1.0.2
 - [ ] Background color changes based on time of day, black at night
+
+# v1.1.0
+- [ ] Add day of week counter
