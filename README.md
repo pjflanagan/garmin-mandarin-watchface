@@ -1,12 +1,14 @@
 # Garmin Chinese Watchface
 
-View the time of day in Chinese
+View the time in Chinese, great for students!
 
 ## About
 
-This is a branch of a Chinese watch face by Mark Kuo. I felt the watchface needed a little decoration and motion.
-I've added a second hand and a decorative background meant to resemble how dive watches often have wave backgrounds.
-These waves were inspired by the way clouds are frequently drawn in Asia.
+This is a branch of a [garmin-mandarin-clock](https://github.com/starryalley/garmin-mandarin-clock) by [Mark Kuo](https://github.com/starryalley).
+I love using this watch face, but felt it could use a little motion and decoration.
+To make the watch feel a more alive, I've added second hand.
+Inspired by how dive watches often have wave backgrounds, 
+I've also added a decorative wave background meant to resemble the way clouds are frequently drawn in Asia.
 
 ![Screenshots](screenshots/screenshot_1.png)
 
