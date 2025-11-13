@@ -2,7 +2,7 @@
     <property id="Theme" type="number">0</property>
     <property id="AlignText" type="number">2</property>
 
-    <!-- TODO: these need to be: comfortable, cozy, cramped -->
+    <!-- TODO: v1.0.4 -->
     <property id="OffsetX" type="number">30</property>
     <property id="OffsetY" type="number">80</property>
     <property id="Padding" type="number">10</property>

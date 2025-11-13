@@ -5,14 +5,18 @@
     <string id="Waves">Waves</string>
     <string id="Sky">Sky</string>
     <string id="Night">Night</string>
+    <string id="Snow">Snow</string>
+    <string id="Lotus">Lotus</string>
     <string id="ChineseNewYear">Chinese New Year</string>
+    <string id="GreenTea">Green Tea</string>
+    <string id="Boba">Boba</string>
 
     <string id="AlignTextTitle">Alignment</string>
     <string id="AlignLeft">Align Left</string>
     <string id="AlignCenter">Align Center</string>
     <string id="AlignRight">Align Right</string>
 
-    <!-- TODO: change to one single setting -->
+    <!-- TODO: v1.0.4 -->
     <string id="OffsetXTitle">Left or Right Margin (pixels)</string>
     <string id="OffsetYTitle">Top Margin (pixels)</string>
     <string id="PaddingTitle">Spacing after Time/Period of Day text (pixels)</string>

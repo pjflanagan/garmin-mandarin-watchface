@@ -4,7 +4,11 @@
             <listEntry value="0">@Strings.Waves</listEntry>
             <listEntry value="1">@Strings.Sky</listEntry>
             <listEntry value="2">@Strings.Night</listEntry>
-            <listEntry value="3">@Strings.ChineseNewYear</listEntry>
+            <listEntry value="3">@Strings.Snow</listEntry>
+            <listEntry value="4">@Strings.Lotus</listEntry>
+            <listEntry value="5">@Strings.ChineseNewYear</listEntry>
+            <listEntry value="6">@Strings.GreenTea</listEntry>
+            <listEntry value="7">@Strings.Boba</listEntry>
         </settingConfig>
     </setting>
 
@@ -16,7 +20,7 @@
         </settingConfig>
     </setting>
 
-    <!-- TODO: change to one single setting -->
+    <!-- TODO: v1.0.4 -->
     <setting propertyKey="@Properties.OffsetX" title="@Strings.OffsetXTitle">
         <settingConfig type="numeric" />
     </setting>

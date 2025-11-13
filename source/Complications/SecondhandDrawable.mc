@@ -13,7 +13,7 @@ module Complications {
     private var _radius as Number;
 
     // NOTE: half of this goes off screen, do double the visible width
-    private const _segmentWidthSecond = 3;
+    private const _segmentWidthSecond = 6;
 
     public function initialize(
       params as
@@ -39,7 +39,7 @@ module Complications {
     }
 
     private function getSecondOfMinuteAngle(seconds as Number) as Number {
-      var degrees = (seconds * -90) / 15 + 270;
+      var degrees = (seconds * -90) / 15 + 90;
       return normalizeDegrees(degrees);
     }
 
@@ -49,10 +49,12 @@ module Complications {
       // second hand ring
       var theme = Properties.getValue("Theme");
       var color = Complications.THEME[theme][1]; // hourColor
-      var secondAngle = getSecondOfMinuteAngle(_model._secondOfMinute);
+
       dc.setColor(color, Graphics.COLOR_TRANSPARENT);
       dc.setPenWidth(_segmentWidthSecond);
-      dc.drawArc(_x, _y, _radius, Graphics.ARC_CLOCKWISE, 270, secondAngle);
+
+      var secondAngle = getSecondOfMinuteAngle(_model._secondOfMinute);
+      dc.drawArc(_x, _y, _radius, Graphics.ARC_CLOCKWISE, 90, secondAngle);
     }
   }
 }
